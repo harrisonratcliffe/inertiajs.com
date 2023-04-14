@@ -267,7 +267,7 @@ export default function () {
                     <header></header>
                     <content>
                       {flash.message && (
-                        <div class="alert">{flash.message}</div>
+                        <div className="alert">{flash.message}</div>
                       )}
                       {children}
                     </content>
